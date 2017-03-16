@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+}
+
+#file-browser {
+    margin: 100px 0px 0 100;
+    display: inline-block;
+}
+
+#path-bar {
+    border: solid 1px #000000;
+    padding: 2px 4px;
+}
+
+#files-list {
+    border-spacing: 0px;
+    margin-top: 6px;
+}
+
+#files-list th {
+    text-align: left;
+}
+
+.file td{
+    padding: 3px 4px 2px;
+    border-bottom: dashed 1px #AAAAAA;
+    empty-cells: show;
+}
+
+.file td:not(:first-child):not(:last-child){
+    padding-right: 16px;
+}
+
+.file.selected{
+    background-color: #DDDDDD;
+}
+
+.file.super-selected{
+    background-color: #FF0000;
+}
